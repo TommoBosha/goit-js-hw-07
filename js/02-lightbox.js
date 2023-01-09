@@ -20,10 +20,10 @@ function creatImgCardsMarkup(galleryItems) {
 }
 //  запускаємо бібліотеку SimpleLightbox
 const lightbox = new SimpleLightbox('.gallery a', {
-    animationSpeed: 250,
+    captionDelay: 250,
     captionType: "alt",
     captionsData: "alt",
-});
+}); _
 
 
 
